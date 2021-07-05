@@ -1,9 +1,161 @@
-#topleftlogo{
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.header{
+    height: 100px;
+    width: 100%;
+   
+
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    
+    
+}
+.logo{
+    font-size: 35px;
+    margin-left: 200px;
+    padding-top: 15px;
+    
+    
+}
+.logo a{
     color: black;
+    text-decoration: none;
+    
+}
+
+.logo a:hover{
+    color: rgb(253,187,46);
+}
+
+.nar-list{
+    padding-right: 330px;
+    padding-top: 45px;
+    font-size: 25px;
+}
+
+.nar-list ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+   
+}
+
+.nar-list ul li a{
+    color:black;
+    text-decoration: none;
+
+}
+.nar-list ul li a:hover{
+    color: rgb(253,187,46);
 }
 
 
-.navbar ul li a{
-    text-decoration: none;
+.body{
+
+    height: 880px;
+    width: 100%;
+    background-color:rgb(253,187,46);
     
+
+}
+.bodybanner{
+    display: flex;
+    margin-left: 100px;
+    
+}
+
+
+.bodyleft{
+    
+    padding-left: 100px;
+    padding-top: 400px;
+}
+.bodylogo img{
+    width: 500px;
+    padding-left: 300px;
+    padding-top: 200px;
+ }
+
+ 
+.bodyleft h1{
+    font-size: 60px;
+}
+
+.image {
+     
+    transition: .4s ease;
+    
+  }
+
+.bodylogo:hover .image {
+    opacity: 0.5;
+  }
+
+.button{
+    
+    border-radius: 7px;
+    color: rgb(253,187,46);
+    padding: 5px 20px;
+    
+
+  }
+  .button a{
+    color: black;
+    text-decoration: none;
+}
+
+.button a:hover{
+    color:rgb(253,187,46);
+    
+    
+}
+
+
+
+#bodytext{
+    padding-bottom: 20px;
+}
+
+.aboutsection{
+    height: 550px;
+    width: 100%;
+    text-align: center;
+}
+.abouttext{
+    display: flex;
+}
+
+.aboutlefttext{
+    text-align: justify;
+    margin-left: 200px;
+    width: 750px;
+    padding-top: 100px;
+}
+
+#about-headersecond{
+    font-size: 50px;
+}
+
+.aboutrighttext{
+    padding-top: 30px;
+    padding-left: 300px;
+    
+}
+
+#years{
+    font-size: 150px;
+    color: rgb(253,187,46);
+}
+.firstlefttext{
+    padding-bottom: 20px;
 }
