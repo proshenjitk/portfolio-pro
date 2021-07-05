@@ -1,3 +1,9 @@
 #topleftlogo{
-    color:rgb(37,43,51);
+    color: black;
+}
+
+
+.navbar ul li a{
+    text-decoration: none;
+    
 }
